@@ -1,0 +1,31 @@
+{
+  "name": "zero2all/jihe-php-jhla",
+  "description": "jihela server using Yii 2.0",
+  "keywords": ["jihela"],
+  "homepage": "http://www.jhla.com.cn/",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "2.0.4",
+    "yiisoft/yii2-twig": "2.0.4",
+    "yiisoft/yii2-bootstrap": "2.0.4",
+    "yiisoft/yii2-swiftmailer": "2.0.4"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "2.0.4",
+    "yiisoft/yii2-gii": "2.0.4",
+    "yiisoft/yii2-faker": "2.0.3",
+    "yiisoft/yii2-codeception": "2.0.4",
+    "codeception/codeception": "2.0.13"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

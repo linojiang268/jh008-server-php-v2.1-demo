@@ -1,0 +1,376 @@
+2015-05-27 19:44:17 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#3 {main}
+2015-05-27 19:44:17 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727057.2901
+    'REQUEST_TIME' => 1432727057
+    'argv' => [
+        0 => './yii'
+        1 => 'inspiring/index'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:44:49 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#3 {main}
+2015-05-27 19:44:49 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727089.5833
+    'REQUEST_TIME' => 1432727089
+    'argv' => [
+        0 => './yii'
+        1 => 'inspiring/index'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:46:11 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#3 {main}
+2015-05-27 19:46:11 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727171.4282
+    'REQUEST_TIME' => 1432727171
+    'argv' => [
+        0 => './yii'
+        1 => 'inspiring/index'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:46:52 [-][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @console/commands' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/BaseYii.php:152
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(237): yii\BaseYii::getAlias('@console/comman...')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/controllers/HelpController.php(148): yii\base\Module->getControllerPath()
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/controllers/HelpController.php(77): yii\console\controllers\HelpController->getModuleCommands(Object(yii\console\Application))
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/controllers/HelpController.php(89): yii\console\controllers\HelpController->getCommands()
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/controllers/HelpController.php(184): yii\console\controllers\HelpController->getCommandDescriptions()
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#6 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('', Array)
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('', Array)
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('help', Array)
+#12 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('help', Array)
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#15 {main}
+2015-05-27 19:46:52 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727212.2014
+    'REQUEST_TIME' => 1432727212
+    'argv' => [
+        0 => './yii'
+        1 => 'help'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:47:21 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'console\commands\Controller' not found' in /Users/brian/Development/php/jihe-php-jhla/console/commands/InspiringController.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-05-27 19:47:21 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727241.4492
+    'REQUEST_TIME' => 1432727241
+    'argv' => [
+        0 => './yii'
+        1 => 'inspiring/index'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:47:28 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'console\commands\Controller' not found' in /Users/brian/Development/php/jihe-php-jhla/console/commands/InspiringController.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-05-27 19:47:28 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727248.1218
+    'REQUEST_TIME' => 1432727248
+    'argv' => [
+        0 => './yii'
+        1 => 'help'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:50:26 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#3 {main}
+2015-05-27 19:50:26 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727426.3804
+    'REQUEST_TIME' => 1432727426
+    'argv' => [
+        0 => './yii'
+        1 => 'inspiring/index'
+    ]
+    'argc' => 2
+]
+2015-05-27 19:50:30 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "inspiring/index".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('inspiring/index', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/brian/Development/php/jihe-php-jhla/yii(27): yii\base\Application->run()
+#3 {main}
+2015-05-27 19:50:30 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/ph/mvrv2pqn34ddrlncv7s_f_540000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.GNUQHHWeO0/Render'
+    'TERM_PROGRAM_VERSION' => '343.7'
+    'OLDPWD' => '/Users/brian/Development/php'
+    'TERM_SESSION_ID' => 'FF9AA529-4ECA-48E7-8141-1B8C54B460FF'
+    'USER' => 'brian'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.mLsAUF5h8S/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/brian/Development/php/jihe-php-jhla'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/brian'
+    'LOGNAME' => 'brian'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a5'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1432727430.4256
+    'REQUEST_TIME' => 1432727430
+    'argv' => [
+        0 => './yii'
+        1 => 'inspiring/index'
+    ]
+    'argc' => 2
+]

@@ -1,0 +1,24 @@
+{{ this.beginPage() }}
+<!doctype html>
+<html lang="{{app.language}}">
+  <head>
+    <meta charset="{{app.charset}}"/>
+    <meta name="keywords" content="集合啦官方网站|集合啦活动平台|app|同城活动|活动社交app|移动社交平台|有氧运动|健身交友|活动达人|活动专家|同城活动资讯和攻略|活动记忆回顾"> 
+    <meta name="description" content="集合啦是一款活动类社交平台，每天都会更新通过精心挑选的同城活动信息并在app上展示出来帮助需要参与活动的人及时了解靠谱准确的活动内容。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
+    {{ html.csrfMetaTags() | raw }}
+    <title>{{ html.encode(this.title) | default('集合啦官方网站') }}</title>
+    {{ this.head() }}
+    {% block head %}
+      <link href="/css/style.css" rel='stylesheet' type='text/css' /> 
+    {% endblock %}
+  </head>
+  <body>
+  {{ this.beginBody() }}
+  <div class="wrap">
+    {% block content %}{% endblock %}
+  </div>
+  {{ this.endBody() }}
+  </body>
+</html>
+{{ this.endPage() }}

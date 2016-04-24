@@ -1,0 +1,803 @@
+2015-05-27 11:43:53 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/brian/Development/php/jihe-php-jhla/website/views/site/index.php' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#2 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(10): yii\base\Controller->render('index')
+#3 [internal function]: website\controllers\SiteController->actionIndex()
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2015-05-27 11:43:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61724'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432698233.6133
+    'REQUEST_TIME' => 1432698233
+]
+2015-05-27 14:35:34 [127.0.0.1][-][-][error][Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'Unexpected token "punctuation" of value "|" ("name" expected) in "main.twig" at line 8' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/TokenStream.php:88
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(443): Twig_TokenStream->expect(5)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(437): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_GetAttr))
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(302): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_GetAttr))
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(194): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(487): Twig_ExpressionParser->parseExpression()
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(377): Twig_ExpressionParser->parseArguments()
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(300): Twig_ExpressionParser->parseSubscriptExpression(Object(Twig_Node_Expression_Name))
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(194): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#12 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Parser.php(141): Twig_ExpressionParser->parseExpression()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(543): Twig_Parser->parse(Object(Twig_TokenStream))
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(595): Twig_Environment->parse(Object(Twig_TokenStream))
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(335): Twig_Environment->compileSource('{{ this.beginPa...', 'main.twig')
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('main.twig')
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('main.twig', Array)
+#19 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#20 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#21 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('Welcome!')
+#22 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(10): yii\base\Controller->render('index')
+#23 [internal function]: website\controllers\SiteController->actionIndex()
+#24 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#25 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#27 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#28 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#30 {main}
+2015-05-27 14:35:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62891'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432708534.4169
+    'REQUEST_TIME' => 1432708534
+]
+2015-05-27 14:36:01 [127.0.0.1][-][-][error][Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'Unexpected token "punctuation" of value "|" ("name" expected) in "main.twig" at line 8' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/TokenStream.php:88
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(443): Twig_TokenStream->expect(5)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(437): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_GetAttr))
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(302): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_GetAttr))
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(194): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Parser.php(141): Twig_ExpressionParser->parseExpression()
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(543): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(595): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(335): Twig_Environment->compileSource('{{ this.beginPa...', 'main.twig')
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('main.twig')
+#12 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('main.twig', Array)
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('Welcome!')
+#16 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(10): yii\base\Controller->render('index')
+#17 [internal function]: website\controllers\SiteController->actionIndex()
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#19 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#21 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#22 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#24 {main}
+2015-05-27 14:36:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62894'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432708561.0258
+    'REQUEST_TIME' => 1432708561
+]
+2015-05-27 14:36:06 [127.0.0.1][-][-][error][Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'Unexpected token "punctuation" of value "|" ("name" expected) in "main.twig" at line 8' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/TokenStream.php:88
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(443): Twig_TokenStream->expect(5)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(437): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_GetAttr))
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(302): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_GetAttr))
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(194): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_Name))
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Parser.php(141): Twig_ExpressionParser->parseExpression()
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(543): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(595): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(335): Twig_Environment->compileSource('{{ this.beginPa...', 'main.twig')
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('main.twig')
+#12 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('main.twig', Array)
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('Welcome!')
+#16 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(10): yii\base\Controller->render('index')
+#17 [internal function]: website\controllers\SiteController->actionIndex()
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#19 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#21 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#22 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#24 {main}
+2015-05-27 14:36:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62895'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432708566.2101
+    'REQUEST_TIME' => 1432708566
+]
+2015-05-27 14:46:24 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Unable to find template "main" (looked into: /Users/brian/Development/php/jihe-php-jhla/website/views/site) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:195
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('main')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('main')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('main', NULL)
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('main', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('main', 'index.twig', 1)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#12 [internal function]: website\controllers\SiteController->actionIndex()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2015-05-27 14:46:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63105'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709184.4729
+    'REQUEST_TIME' => 1432709184
+]
+2015-05-27 14:46:30 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Unable to find template "main" (looked into: /Users/brian/Development/php/jihe-php-jhla/website/views/site) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:195
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('main')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('main')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('main', NULL)
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('main', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('main', 'index.twig', 1)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#12 [internal function]: website\controllers\SiteController->actionIndex()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2015-05-27 14:46:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63106'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709190.0325
+    'REQUEST_TIME' => 1432709190
+]
+2015-05-27 14:46:46 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Unable to find template "layouts/main" (looked into: /Users/brian/Development/php/jihe-php-jhla/website/views/site) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:195
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('layouts/main')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('layouts/main')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('layouts/main', NULL)
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('layouts/main', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('layouts/main', 'index.twig', 1)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#12 [internal function]: website\controllers\SiteController->actionIndex()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2015-05-27 14:46:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63107'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709206.8194
+    'REQUEST_TIME' => 1432709206
+]
+2015-05-27 14:46:52 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Looks like you try to load a template outside configured directories (../layouts/main) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:236
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(177): Twig_Loader_Filesystem->validateName('../layouts/main')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('../layouts/main')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('../layouts/main')
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('../layouts/main', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('../layouts/main', NULL)
+#5 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('../layouts/main', 'index.twig', 1)
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#12 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#13 [internal function]: website\controllers\SiteController->actionIndex()
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2015-05-27 14:46:52 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63109'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709212.6587
+    'REQUEST_TIME' => 1432709212
+]
+2015-05-27 14:48:14 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Unable to find template "main.twig" (looked into: /Users/brian/Development/php/jihe-php-jhla/website/views/site) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:195
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('main.twig')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('main.twig')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('main.twig', NULL)
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('main.twig', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('main.twig', 'index.twig', 1)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#12 [internal function]: website\controllers\SiteController->actionIndex()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2015-05-27 14:48:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63115'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709294.1691
+    'REQUEST_TIME' => 1432709294
+]
+2015-05-27 14:48:20 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Unable to find template "layouts/main.twig" (looked into: /Users/brian/Development/php/jihe-php-jhla/website/views/site) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:195
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('layouts/main.tw...')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('layouts/main.tw...')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('layouts/main.tw...', NULL)
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('layouts/main.tw...', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('layouts/main.tw...', 'index.twig', 1)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#12 [internal function]: website\controllers\SiteController->actionIndex()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2015-05-27 14:48:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63116'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709300.8592
+    'REQUEST_TIME' => 1432709300
+]
+2015-05-27 14:49:51 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Looks like you try to load a template outside configured directories (../layouts/main.twig) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:236
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(177): Twig_Loader_Filesystem->validateName('../layouts/main...')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('../layouts/main...')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('../layouts/main...')
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('../layouts/main...', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('../layouts/main...', NULL)
+#5 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('../layouts/main...', 'index.twig', 1)
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#12 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#13 [internal function]: website\controllers\SiteController->actionIndex()
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2015-05-27 14:49:51 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63123'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709391.5364
+    'REQUEST_TIME' => 1432709391
+]
+2015-05-27 14:50:01 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Looks like you try to load a template outside configured directories (../layouts/main.twig) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:236
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(177): Twig_Loader_Filesystem->validateName('/../layouts/mai...')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/../layouts/mai...')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('/../layouts/mai...')
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('/../layouts/mai...', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('/../layouts/mai...', NULL)
+#5 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('/../layouts/mai...', 'index.twig', 1)
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#12 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#13 [internal function]: website\controllers\SiteController->actionIndex()
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2015-05-27 14:50:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63124'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709401.394
+    'REQUEST_TIME' => 1432709401
+]
+2015-05-27 14:50:10 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Looks like you try to load a template outside configured directories (../layouts/main.twig) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:236
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(177): Twig_Loader_Filesystem->validateName('../layouts/main...')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('../layouts/main...')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('../layouts/main...')
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('../layouts/main...', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('../layouts/main...', NULL)
+#5 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('../layouts/main...', 'index.twig', 1)
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#12 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#13 [internal function]: website\controllers\SiteController->actionIndex()
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#18 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2015-05-27 14:50:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63125'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709410.4612
+    'REQUEST_TIME' => 1432709410
+]
+2015-05-27 14:50:18 [127.0.0.1][-][-][error][Twig_Error_Loader] exception 'Twig_Error_Loader' with message 'Unable to find template "/layouts/main.twig" (looked into: /Users/brian/Development/php/jihe-php-jhla/website/views/site) in "index.twig" at line 1.' in /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:195
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/layouts/main.t...')
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Filesystem->getCacheKey('/layouts/main.t...')
+#2 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(324): Twig_Environment->getTemplateClass('/layouts/main.t...', NULL)
+#3 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Template.php(254): Twig_Environment->loadTemplate('/layouts/main.t...', NULL)
+#4 /Users/brian/Development/php/jihe-php-jhla/website/runtime/Twig/cache/93/cb/1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f.php(11): Twig_Template->loadTemplate('/layouts/main.t...', 'index.twig', 1)
+#5 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(346): __TwigTemplate_93cb1d585df83eeb2a38aff7e03923c1dd1710e607354a43c058a5fe7725609f->__construct(Object(Twig_Environment))
+#6 /Users/brian/Development/php/jihe-php-jhla/vendor/twig/twig/lib/Twig/Environment.php(293): Twig_Environment->loadTemplate('index.twig')
+#7 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2-twig/ViewRenderer.php(152): Twig_Environment->render('index.twig', Array)
+#8 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(245): yii\twig\ViewRenderer->render(Object(yii\web\View), '/Users/brian/De...', Array)
+#9 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/brian/De...', Array, Object(website\controllers\SiteController))
+#10 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(website\controllers\SiteController))
+#11 /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php(12): yii\base\Controller->render('index')
+#12 [internal function]: website\controllers\SiteController->actionIndex()
+#13 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#17 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#19 {main}
+2015-05-27 14:50:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63126'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432709418.7149
+    'REQUEST_TIME' => 1432709418
+]
+2015-05-27 15:22:20 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)' in /Users/brian/Development/php/jihe-php-jhla/website/controllers/SiteController.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-05-27 15:22:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64030'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432711340.7672
+    'REQUEST_TIME' => 1432711340
+]
+2015-05-27 19:34:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/brian/Development/php/jihe-php-jhla/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/brian/Development/php/jihe-php-jhla/website/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-05-27 19:34:11 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"282xRQZqiME7cLVF7RbEoI0D6OaHxsQm\";}'
+    'PHPSESSID' => 'issshruqvg0p27m9uir4s99up5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/brian/Development/php/jihe-php-jhla/website/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49193'
+    'SERVER_SOFTWARE' => 'PHP 5.6.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/brian/Development/php/jihe-php-jhla/website/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,zh-CN;q=0.6'
+    'HTTP_COOKIE' => '_csrf=07bbdbc56d728affd502cb9a2912fc7cce9c9f3a0092eaf76662b6eaf34cf45aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22282xRQZqiME7cLVF7RbEoI0D6OaHxsQm%22%3B%7D; PHPSESSID=issshruqvg0p27m9uir4s99up5'
+    'REQUEST_TIME_FLOAT' => 1432726451.2356
+    'REQUEST_TIME' => 1432726451
+]
